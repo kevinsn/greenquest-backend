@@ -8,7 +8,7 @@ export class League {
   @Column()
   company: string;
   @Column()
-  participants: number;
+  members: string;
   @CreateDateColumn()
   create_at: Date;
   @UpdateDateColumn()
